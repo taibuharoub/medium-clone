@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .custom-input {
+    @apply shadow border rounded py-2 px-3 mt-1 block w-full ring-yellow-500 focus:ring-2;
+  }
+}
